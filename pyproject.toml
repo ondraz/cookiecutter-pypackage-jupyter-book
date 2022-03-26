@@ -1,7 +1,7 @@
 [tool]
 [tool.poetry]
 name = "ppwjb"
-version = "1.1.1"
+version = "0.0.1"
 description = "A Wizard to create a skeleton python project with poetry, tox, jupyter-book"
 license = "BSD-3-Clause"
 authors = ["Ondra Zahradnik <ondra.zahradnik@gmail.com>"]
