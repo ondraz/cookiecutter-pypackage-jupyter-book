@@ -1,9 +1,9 @@
-# Python Project Wizard (with Jupyter Book)
+# Python Project Wizard with Jupyter Book
 A tool for creating skeleton python project, built with popular develop tools and
 conform to best practice including Jupyter Book and its various integrations.
 
 [![Version](http://img.shields.io/pypi/v/ppwjb?color=brightgreen)](https://pypi.python.org/pypi/ppwjb)
-[![CI Status](https://github.com/ondraz/cookiecutter-pypackage/actions/workflows/release.yml/badge.svg)](https://github.com/ondraz/cookiecutter-pypackage)
+[![CI Status](https://github.com/ondraz/cookiecutter-pypackage-jupyter-book/actions/workflows/release.yml/badge.svg)](https://github.com/ondraz/cookiecutter-pypackage-jupyter-book)
 [![Downloads](https://img.shields.io/pypi/dm/ppwjb)](https://pypi.org/project/ppwjb/)
 [![License](https://img.shields.io/pypi/l/ppwjb)](https://opensource.org/licenses/BSD-2-Clause)
 ![Python Versions](https://img.shields.io/pypi/pyversions/ppwjb)
@@ -40,7 +40,7 @@ Generate a Python package project by simple run:
 ppwjb
 ```
 
-Then follow **[Tutorial](https://ondraz.github.io/cookiecutter-pypackage/tutorial/)** to finish other configurations.
+Then follow **[Tutorial](https://ondraz.github.io/cookiecutter-pypackage-jupyter-book/tutorial/)** to finish other configurations.
 
 # Credits
 This repo is forked from [zillionare/cookiecutter-pypackage](https://github.com/zillionare/cookiecutter-pypackage), and borrowed some ideas from  [audreyr/cookiecutter-pypackage](https://github.com/audreyr/cookiecutter-pypackage) and [briggySmalls](https://github.com/briggySmalls/cookiecutter-pypackage).

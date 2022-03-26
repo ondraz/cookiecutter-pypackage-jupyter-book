@@ -2,12 +2,12 @@
 [tool.poetry]
 name = "ppwjb"
 version = "0.0.1"
-description = "A Wizard to create a skeleton python project with poetry, tox, jupyter-book"
+description = "Python project wizard with Jupyter Book"
 license = "BSD-3-Clause"
 authors = ["Ondra Zahradnik <ondra.zahradnik@gmail.com>"]
 readme = "README.md"
-repository = "https://github.com/ondraz/cookiecutter-pypackage"
-documentation = "https://ondraz.github.io/cookiecutter-pypackage/"
+repository = "https://github.com/ondraz/cookiecutter-pypackage-jupyter-book"
+documentation = "https://ondraz.github.io/cookiecutter-pypackage-jupyter-book/"
 keywords = ['cookiecutter', 'template', 'package']
 packages = [
   {include = "ppwjb"}
