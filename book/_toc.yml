@@ -1,0 +1,11 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+chapters:
+    - file: tutorial
+    - file: pypi_release_checklist
+    - file: console_script_setup
+    - file: faq
+    - file: history
