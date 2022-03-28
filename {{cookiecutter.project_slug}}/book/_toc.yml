@@ -9,6 +9,8 @@ parts:
     - file: installation
     - file: usage
     - file: api
+    - file: notebook
+    - file: authoring
   - caption: Developer's Guide
     chapters:
 {%- if cookiecutter.create_author_file == 'y' %}
