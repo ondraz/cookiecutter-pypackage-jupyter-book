@@ -1,3 +1,5 @@
-{%
-  include-markdown "../HISTORY.md"
-%}
+# History
+
+## {{ cookiecutter.version }} ({% now 'local' %})
+
+* First release on PyPI.

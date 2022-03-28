@@ -61,7 +61,7 @@ pyupgrade = {version = "^2.19.1", optional = true}
 jupyter-book = "^0.11.3"
 plotly = "^5.3.1"
 kaleido = "0.2.1"
-
+Jinja2 = "<3.1"    # workaround for jupyter-book
 
 [tool.poetry.extras]
 test = [
@@ -94,7 +94,7 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.black]
-line-length = 88
+line-length = 120
 include = '\.pyi?$'
 exclude = '''
 /(

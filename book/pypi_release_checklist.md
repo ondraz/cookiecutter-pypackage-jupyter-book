@@ -3,7 +3,8 @@
 ## For Every Release
 
 1. Check out release branch, merge all changes from master/main to release
-1. Update `HISTORY.md` - Be noticed that github workflow will generate a changelog for you automatically.
+1. Update `history.md` - Be noticed that github workflow will generate a changelog
+in `changelog.md` for you automatically.
 1. Commit the changes:
     ```bash
     git add HISTORY.md
@@ -33,9 +34,9 @@ we have already run twine check during tox test.
 
 ## About This Checklist
 
-This checklist is adapted from:
+This checklist has been adapted from:
 
-- <https://gist.github.com/audreyr/5990987>
-- <https://gist.github.com/audreyr/9f1564ea049c14f682f4>
+- [https://gist.github.com/audreyr/5990987](https://gist.github.com/audreyr/5990987)
+- [https://gist.github.com/audreyr/9f1564ea049c14f682f4](https://gist.github.com/audreyr/9f1564ea049c14f682f4)
 
 It assumes that you are using all features of Cookiecutter PyPackage.

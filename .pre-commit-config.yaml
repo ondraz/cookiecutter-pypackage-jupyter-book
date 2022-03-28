@@ -14,3 +14,4 @@ repos:
     - id: check-merge-conflict
     - id: check-yaml
       args: [--unsafe]
+      exclude: book/_toc.yml

@@ -2,32 +2,14 @@
 # {{ cookiecutter.project_name }}
 
 {% if is_open_source %}
-<p align="center">
-<a href="https://pypi.python.org/pypi/{{ cookiecutter.project_slug }}">
-    <img src="https://img.shields.io/pypi/v/{{ cookiecutter.project_slug }}.svg"
-        alt = "Release Status">
-</a>
+[![Version](http://img.shields.io/pypi/v/{{ cookiecutter.project_slug }}?color=brightgreen)](https://pypi.python.org/pypi/{{ cookiecutter.project_slug }})
+[![CI Status](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }})
+[![Downloads](https://img.shields.io/pypi/dm/{{ cookiecutter.project_slug }})](https://pypi.org/project/{{ cookiecutter.project_slug }}/)
+[![License](https://img.shields.io/pypi/l/{{ cookiecutter.project_slug }})](https://opensource.org/licenses/{{ cookiecutter.open_source_license }})
+![Python Versions](https://img.shields.io/pypi/pyversions/{{ cookiecutter.project_slug }})
 
-<a href="https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/actions">
-    <img src="https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/actions/workflows/main.yml/badge.svg?branch=release" alt="CI Status">
-</a>
-
-<a href="https://{{ cookiecutter.project_slug | replace("_", "-") }}.readthedocs.io/en/latest/?badge=latest">
-    <img src="https://readthedocs.org/projects/{{ cookiecutter.project_slug | replace("_", "-") }}/badge/?version=latest" alt="Documentation Status">
-</a>
 {% if cookiecutter.add_pyup_badge == 'y' %}
-<a href="https://pyup.io/repos/github/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/">
-<img src="https://pyup.io/repos/github/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/shield.svg" alt="Updates">
-</a>
-{% endif %}
-</p>
-{% else %}
-{% if cookiecutter.add_pyup_badge == 'y' %}
-<p>
-<a href="https://pyup.io/repos/github/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/">
-<img src="https://pyup.io/repos/github/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/shield.svg" alt="Updates">
-</a>
-</p>
+[![pyup](https://pyup.io/repos/github/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/shield.svg)](https://pyup.io/repos/github/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/)
 {% endif %}
 {% endif %}
 
@@ -35,7 +17,7 @@
 
 {% if is_open_source %}
 * Free software: {{ cookiecutter.open_source_license }}
-* Documentation: <https://{{ cookiecutter.project_slug | replace("_", "-") }}.readthedocs.io>
+* [Documentation](https://{{ cookiecutter.github_username }}.github.io/{{ cookiecutter.project_slug }})
 {% endif %}
 
 ## Features
@@ -44,4 +26,8 @@
 
 ## Credits
 
-This package was created with [Cookiecutter](https://github.com/audreyr/cookiecutter) and the [zillionare/cookiecutter-pypackage](https://github.com/zillionare/cookiecutter-pypackage) project template.
+This package was created with following project templates.
+
+* [ondraz/cookiecutter-pypackage-jupyter-book](https://github.com/ondraz/cookiecutter-pypackage-jupyter-book)
+* [audreyr/cookiecutter](https://github.com/audreyr/cookiecutter)
+* [zillionare/cookiecutter-pypackage](https://github.com/zillionare/cookiecutter-pypackage)

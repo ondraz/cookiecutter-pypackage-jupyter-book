@@ -18,7 +18,7 @@ jobs:
   # This workflow contains a single job called "build"
   release:
     name: Create Release
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
 
     strategy:
       matrix:
@@ -30,7 +30,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: generate change log
-        uses: heinrichreimer/github-changelog-generator-action@v2.1.1
+        uses: heinrichreimer/github-changelog-generator-action@v2.3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           issues: true
@@ -39,6 +39,7 @@ jobs:
           prWoLabels: true
           unreleased: true
           addSections: '{"documentation":{"prefix":"**Documentation:**","labels":["documentation"]}}'
+          sinceTag: v0.0.1
           output: CHANGELOG.md
 
       - uses: actions/setup-python@v2
@@ -53,13 +54,13 @@ jobs:
       - name: pre-publish documentation
         run: |
           poetry install -E doc
-          poetry run mkdocs build
+          poetry run jupyter-book build book
 
       - name: publish documentation
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.PERSONAL_TOKEN }}
-          publish_dir: ./site
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: book/_build/html
 
       - name: Build wheels and source tarball
         run: >-
@@ -85,4 +86,3 @@ jobs:
         with:
           user: __token__
           password: ${{ secrets.PYPI_API_TOKEN }}
-          skip_existing: true

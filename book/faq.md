@@ -1,6 +1,6 @@
 # FAQ
 
-## Why github workflow `release & publish` failed?
+## Why GitHub Workflow `release & publish` Failed?
 We have used a github action `heinrichreimer/github-changelog-generator-action` to
 generate change log automatically for your project. However, this action requires
 some configuration.
@@ -25,16 +25,17 @@ uncomment `#sinceTag` line and given an existed tag name in your project. If
 there's none, you have to create one now.
 
 ## Why not Travis CI?
-Travis CI is a great service, however, github actions is super convenient, less configuration,
+Travis CI is a great service, however, GitHub actions are super convenient, less configuration,
 better integration. Less configuration, less error prone.
 
-## Why not Read the docs?
-Same reason as above. Git pages is convenient than read the docs, it requires no
-further configuration, except access token. As to read the docs, you need to
+## Why not Read the Docs?
+Same reason as above. GitHub pages are more convenient than [Read the Docs](https://readthedocs.org/),
+it requires no further configuration. As to Read the Docs, you need to
 write v2 config file, plus several settings on web pages.
 
-## Why sphinx over mkdocs?
-Jupyter Book runs on top of powerful sphinx and integrates greatly with Jupyter notebooks.
+## Why Sphinx over MkDocs?
+Jupyter Book runs on top of powerful [Sphinx](https://www.sphinx-doc.org/en/master/)
+and integrates greatly with Jupyter notebooks.
 Jupyter notebook integration is the main reason we chose sphinx over otherwise very productive mkdocs.
 
 ## What are the configuration items?
@@ -66,9 +67,8 @@ for your project.
 entry point will match the project_slug. Options: `'fire'`, `'No
 command-line interface'`.
 
-Except above settings, for CI/CD, you'll also need configure github repository secrets
-at page repo > settings > secrets, and add the following secrets:
+Except above settings, for CI/CD, you'll also need configure GitHub repository secrets
+at page repo > Settings > Secrets, and add the following secrets:
 
-* `PERSONAL_TOKEN` (required for publishing document to git pages)
 * `TEST_PYPI_API_TOKEN` (required for publishing dev release to testpypi)
 * `PYPI_API_TOKEN` (required for publish )

@@ -4,15 +4,15 @@
 format: jb-book
 root: index
 parts:
-  - caption: {{ cookiecutter.project_name }}
-    numbered: False
+  - caption: User's Guide
     chapters:
-      - file: chapters/1
-  - caption: Setup
+    - file: installation
+    - file: usage
+    - file: api
+  - caption: Developer's Guide
     chapters:
-      - file: installation
-      - file: usage
-{% if cookiecutter.create_author_file == 'y' -%}      - file: authors
-{% endif -%}      
-      - file: contributing
-      - file: history
+{%- if cookiecutter.create_author_file == 'y' %}
+    - file: authors
+{%- endif %}
+    - file: contributing
+    - file: history

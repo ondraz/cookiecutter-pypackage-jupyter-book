@@ -2,11 +2,11 @@
   "full_name": "Ondra Zahradnik",
   "email": "ondra.zahradnik@gmail.com",
   "github_username": "ondraz",
-  "project_name": "Python Boilerplate",
+  "project_name": "Example Python Package with Jupyter Book",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
-  "project_short_description": "Skeleton project created by Python Project Wizard (ppwjb)",
+  "project_short_description": "Skeleton project created by Python Project Wizard (ppwjb) with Jupyter Book",
   "pypi_username": "{{ cookiecutter.github_username }}",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "use_pytest": "y",
   "add_pyup_badge": "n",
   "command_line_interface": ["Fire", "No command-line interface"],
@@ -14,5 +14,5 @@
   "open_source_license": ["MIT", "BSD-3-Clause", "ISC", "Apache-2.0", "GPL-3.0-only", "Not open source"],
   "docstrings_style": ["google", "numpy", "rst"],
   "install_precommit_hooks": "y",
-  "_copy_without_render": ["book/history.md", "book/contributing.md", "book/authors.md", "book/index.md", ".github/workflows/*.yml"]
+  "_copy_without_render": [".github/workflows/*.yml"]
 }

@@ -43,8 +43,9 @@ ppwjb
 Then follow **[Tutorial](https://ondraz.github.io/cookiecutter-pypackage-jupyter-book/tutorial/)** to finish other configurations.
 
 # Credits
-This repo is forked from [zillionare/cookiecutter-pypackage](https://github.com/zillionare/cookiecutter-pypackage), and borrowed some ideas from  [audreyr/cookiecutter-pypackage](https://github.com/audreyr/cookiecutter-pypackage) and [briggySmalls](https://github.com/briggySmalls/cookiecutter-pypackage).
-
+We based this work on [zillionare/cookiecutter-pypackage](https://github.com/zillionare/cookiecutter-pypackage)
+and borrowed some ideas from [audreyr/cookiecutter-pypackage](https://github.com/audreyr/cookiecutter-pypackage)
+and [briggySmalls](https://github.com/briggySmalls/cookiecutter-pypackage).
 
 [poetry]: https://python-poetry.org/
 [Jupyter Book]: https://jupyterbook.org/
