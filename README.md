@@ -40,7 +40,7 @@ Generate a Python package project by simple run:
 ppwjb
 ```
 
-Then follow **[Tutorial](https://ondraz.github.io/cookiecutter-pypackage-jupyter-book/tutorial/)** to finish other configurations.
+Then follow **[Tutorial](https://ondraz.github.io/cookiecutter-pypackage-jupyter-book/tutorial.html)** to finish other configurations.
 
 # Credits
 We based this work on [zillionare/cookiecutter-pypackage](https://github.com/zillionare/cookiecutter-pypackage)

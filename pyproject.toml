@@ -1,7 +1,7 @@
 [tool]
 [tool.poetry]
 name = "ppwjb"
-version = "0.0.2"
+version = "0.0.3"
 description = "Python project wizard with Jupyter Book"
 license = "BSD-3-Clause"
 authors = ["Ondra Zahradnik <ondra.zahradnik@gmail.com>"]
