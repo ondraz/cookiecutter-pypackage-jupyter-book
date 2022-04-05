@@ -122,7 +122,7 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="history.html">
-   v1.0
+   v0.0.2
   </a>
  </li>
 </ul>
@@ -189,7 +189,7 @@ const thebe_selector_output = ".output, .cell_output"
             href="https://github.com/ondraz/cookiecutter-pypackage-jupyter-book/issues/new?title=Issue%20on%20page%20%2Fpypi_release_checklist.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        <a class="edit-button" href="https://github.com/ondraz/cookiecutter-pypackage-jupyter-book/edit/master/book/pypi_release_checklist.md"><button
+        <a class="edit-button" href="https://github.com/ondraz/cookiecutter-pypackage-jupyter-book/edit/main/book/pypi_release_checklist.md"><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
     </div>
@@ -269,7 +269,8 @@ const thebe_selector_output = ".output, .cell_output"
 <h2>For Every Release<a class="headerlink" href="#for-every-release" title="Permalink to this headline">¶</a></h2>
 <ol>
 <li><p>Check out release branch, merge all changes from master/main to release</p></li>
-<li><p>Update <code class="docutils literal notranslate"><span class="pre">HISTORY.md</span></code> - Be noticed that github workflow will generate a changelog for you automatically.</p></li>
+<li><p>Update <code class="docutils literal notranslate"><span class="pre">history.md</span></code> - Be noticed that github workflow will generate a changelog
+in <code class="docutils literal notranslate"><span class="pre">changelog.md</span></code> for you automatically.</p></li>
 <li><p>Commit the changes:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git add HISTORY.md
 git commit -m <span class="s2">&quot;Changelog for upcoming release 0.1.1.&quot;</span>
@@ -305,7 +306,7 @@ we have already run twine check during tox test.</p></li>
 </div>
 <div class="section" id="about-this-checklist">
 <h2>About This Checklist<a class="headerlink" href="#about-this-checklist" title="Permalink to this headline">¶</a></h2>
-<p>This checklist is adapted from:</p>
+<p>This checklist has been adapted from:</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://gist.github.com/audreyr/5990987">https://gist.github.com/audreyr/5990987</a></p></li>
 <li><p><a class="reference external" href="https://gist.github.com/audreyr/9f1564ea049c14f682f4">https://gist.github.com/audreyr/9f1564ea049c14f682f4</a></p></li>

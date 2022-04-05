@@ -1,9 +1,9 @@
-# v1.0
+# v0.0.2
 
-***first release with the following features:***
+***The first release with the following features:***
 
-1. [Poetry]: Manage version, dependancy, build and release
-2. [Jupyter Book]: Writting your docs in markdown and jupyter notebooks
+1. [Poetry]: Manage version, dependency, build and release
+2. [Jupyter Book]: Writing your docs in markdown and jupyter notebooks
 3. Testing with [Pytest] (unittest is still supported out of the box)
 4. Code coverage report and endorsed by [Codecov]
 * [Tox]: Test your code against environment matrix, lint and artifact check.
