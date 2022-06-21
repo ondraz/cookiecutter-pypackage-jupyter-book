@@ -3,8 +3,10 @@ install:
 	poetry install
 
 install-dev: install
+	python -m pip install --upgrade pip
 	poetry install -E dev
 	poetry run ipython kernel install --user --name=cookiecutter-pypackage
+	poetry run pre-commit autoupdate
 	poetry run pre-commit install
 
 check:

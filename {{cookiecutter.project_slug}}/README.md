@@ -26,8 +26,4 @@
 
 ## Credits
 
-This package was created with following project templates.
-
-* [ondraz/cookiecutter-pypackage-jupyter-book](https://github.com/ondraz/cookiecutter-pypackage-jupyter-book)
-* [audreyr/cookiecutter](https://github.com/audreyr/cookiecutter)
-* [zillionare/cookiecutter-pypackage](https://github.com/zillionare/cookiecutter-pypackage)
+This package was created with [ondraz/cookiecutter-pypackage-jupyter-book](https://github.com/ondraz/cookiecutter-pypackage-jupyter-book) project template.

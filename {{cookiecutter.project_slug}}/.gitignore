@@ -107,6 +107,3 @@ ENV/
 
 # mkdocs build dir
 site/
-
-# jupyter-book build dir
-book/_build
