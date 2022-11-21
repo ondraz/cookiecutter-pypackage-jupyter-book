@@ -1,6 +1,6 @@
 repos:
 -   repo: https://github.com/Lucas-C/pre-commit-hooks
-    rev: v1.2.0
+    rev: v1.3.1
     hooks:
     -   id: forbid-crlf
     -   id: remove-crlf
@@ -19,7 +19,7 @@ repos:
     hooks:
     - id: isort
 -   repo: https://github.com/ambv/black
-    rev: 22.3.0
+    rev: 22.10.0
     hooks:
     - id: black
       language_version: python3.9
