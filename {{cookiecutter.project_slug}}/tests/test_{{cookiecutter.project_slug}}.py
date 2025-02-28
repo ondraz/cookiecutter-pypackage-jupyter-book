@@ -1,6 +1,4 @@
-#!/usr/bin/env python
 """Tests for `{{ cookiecutter.project_slug }}` package."""
-# pylint: disable=redefined-outer-name
 
 {% if cookiecutter.use_pytest == 'y' -%}
 import pytest

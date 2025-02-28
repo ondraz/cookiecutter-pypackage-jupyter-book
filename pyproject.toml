@@ -29,7 +29,7 @@ pyyaml = {version="^5.3.1",optional=true}
 pytest-cov = {version="^2.10.1",optional=true}
 tox = {version = "^3.20.1", optional=true}
 fire = {version="^0.4.0", optional=true}
-jupyter-book = "^0.12.2"
+jupyter-book = "^0.13.0"
 
 [tool.poetry.extras]
 dev = [
